@@ -1,6 +1,7 @@
 {
   "name": "sanaa-yetu-marketplace",
   "version": "1.0.0",
+  "private": true,
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -17,5 +18,8 @@
   "devDependencies": {
     "@babel/core": "^7.20.0"
   },
-  "private": true
+  "overrides": {
+    "fast-xml-parser": "^5.3.4"
+  }
 }
+
